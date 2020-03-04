@@ -1,0 +1,322 @@
+body {
+    font-family: 'segoe ui light';
+background-color: black;
+    overflow: hidden;
+
+}
+
+#loading{
+position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+z-index: 999999;
+background-color: tomato;
+
+
+}
+.sk-chase {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  animation: sk-chase 2.5s infinite linear both;
+}
+
+.sk-chase-dot {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0; 
+  animation: sk-chase-dot 2.0s infinite ease-in-out both; 
+}
+.spinner {
+  margin: 200px auto;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.spinner > div {
+  background-color: yellow;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
+#btnUp{
+position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+    display: none;
+
+
+}
+
+#home{
+
+height:600px;
+background-image: url(../images/2.jpg);
+        
+background-size: 100% 100%;
+
+
+}
+
+#options{
+position: fixed;
+top: 100px;
+    left: 0px;
+    z-index: 9999;
+
+}
+
+#colors-options{
+background-color: #ccc;
+border: solid 2px teal;
+padding: 10px;
+    float: left !important;
+
+
+}
+
+#options ul li {
+width: 30px;
+    height: 30px;
+    background-color: orange;
+    display: inline-block;
+    cursor: pointer;
+
+
+}
+
+#options i {
+
+background-color: teal;
+color: #fff;
+padding: 10px;
+cursor: pointer;
+
+
+
+}
+
+#options img {
+width: 40px;
+    height: 40px;
+    cursor: pointer;
+
+
+
+}
+
+#aboutSection{
+
+
+   background-color: yellow;
+    width: 100%;
+    margin-bottom: 0px !important;
+
+
+}
+
+.aboutScorpion img {
+
+   width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: auto;
+    
+    
+}
+
+.about h1 {
+
+font-size:50px;
+font-weight:700;
+}
+
+
+
+
+.aboutScorpion  p{
+
+font-size: 24px;
+
+   
+
+}
+
+.change {
+ font-size: 30px;
+    font-weight: 700;
+    color:gray;
+
+
+}
+
+.scorpionTeam img {
+margin-bottom: 100px;
+
+}
+
+.scorpionTeam img:hover{
+cursor: pointer;
+transform: scale(1.2);
+
+}
+
+.textChange  p{
+
+   font-size: 30px;
+    background-color: dimgray;
+    color: white;
+   
+
+}
+
+
+
+.gallary img {
+
+    
+    margin: auto !important;
+    height:600px;
+
+}
+
+
+
+
+
+
+.blog h2 {
+    border-bottom:  1px solid #ddd;
+    width: 30%;
+    margin: auto;
+    font-weight: 100;
+    padding-bottom: 20px;
+    color: white;
+    
+}
+
+.blog .title {
+    position: relative;
+}
+
+.blog .g-line {
+    
+    width: 10%;
+    height: 5%;
+    background-color: yellow;
+     position: absolute;
+    left: 45%;
+    top: 66%
+}
+
+
+.blog h2 span {
+    font-weight: bold;
+}
+
+.blog h3 {
+    font-size: 20px;
+    color: white;
+    
+}
+
+.blog h4 {
+    font-size: 15px;
+    color:whitesmoke;
+    
+}
+
+.blog i {
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.blog .icon1 {
+    color: white;
+    background-color:#0069d9;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+
+.blog .icon3 {
+   
+    background-color: palevioletred;
+    padding:  10 12px;
+   
+}
+
+
+.blog .formgrop {
+    width: 80%;
+    margin: auto;
+}
+
+.blog .form-control {
+    margin-bottom: 20px;
+    border: 0;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+}
+
+
+
+.blog .btn {
+    border-radius: 20px;
+    background-color: #b2cb20;
+    border: 0;
+    transition: all .5s;
+}
+
+.blog .btn:hover {
+   border-radius: 20px;
+    background-color:yellow;
+    border: 0;
+}
